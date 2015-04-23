@@ -6,6 +6,7 @@ Should allow:
 
 - ES6/7 via babel
 - JSX via babel
+- CJS modules via webpack
 - Auto reload via webpack-dev-server
 
 ## Installation
