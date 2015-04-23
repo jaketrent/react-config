@@ -1,0 +1,29 @@
+{
+  "name": "react-config",
+  "version": "1.0.0",
+  "description": "Config for basic react work in es6 and jsx",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000"
+  },
+  "keywords": [
+    "react",
+    "seed",
+    "config",
+    "es6",
+    "babel",
+    "webpack",
+    "jsx"
+  ],
+  "author": "jaketrent",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^5.1.11",
+    "babel-loader": "^5.0.0",
+    "html-webpack-plugin": "^1.3.0",
+    "html-webpack-template": "^1.2.0",
+    "react": "^0.13.2",
+    "webpack": "^1.8.9",
+    "webpack-dev-server": "^1.8.2"
+  }
+}
