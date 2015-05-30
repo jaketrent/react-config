@@ -11,6 +11,9 @@ module.exports = {
       { test: /\.js$/, loader: 'babel-loader?stage=0' }
     ]
   },
+  devServer: {
+    port: 3000
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'node_modules/html-webpack-template/index.html',

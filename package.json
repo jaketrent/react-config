@@ -4,7 +4,7 @@
   "description": "Config for basic react work in es6 and jsx",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --port 3000"
+    "start": "webpack-dev-server --config webpack.config.js"
   },
   "keywords": [
     "react",
