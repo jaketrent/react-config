@@ -1,7 +1,10 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-  entry: './index',
+  entry: [
+    'babel/polyfill',
+    './index'
+  ],
   output: {
     path: __dirname + '/dist',
     filename: 'main.js'
