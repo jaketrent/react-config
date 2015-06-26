@@ -24,6 +24,7 @@
     "html-webpack-plugin": "^1.5.2",
     "html-webpack-template": "^2.2.0",
     "react": "^0.13.2",
+    "rf-release": "^0.4.0",
     "webpack": "^1.9.12",
     "webpack-dev-server": "^1.8.2"
   }
