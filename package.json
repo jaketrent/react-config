@@ -1,6 +1,6 @@
 {
   "name": "react-config",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "description": "Config for basic react work in es6 and jsx",
   "main": "index.js",
   "scripts": {
