@@ -1,11 +1,10 @@
 import React from 'react'
+import { render } from 'react-dom'
 
-class Component {
-  render() {
-    return (
-      <h1>I'm ready to start me some Reactin'</h1>
-    )
-  }
+function Component() {
+  return (
+    <h1>I'm ready to start me some Reactin</h1>
+  )
 }
 
-React.render(<Component />, document.getElementById('app'))
+render(<Component />, document.getElementById('app'))
